@@ -1,16 +1,46 @@
-.container-1, .container-2, .container-3, .container-4 {
+.container-1, .container-2, .container-3, .container-4 , .container-5{
     border: 1px solid black;
     width: 75%;
     margin: 5px auto;
     text-align: center;
 }
-.flex-container-1, .flex-container-2, .flex-rps, .flex-pick-color {
+.flex-container-1, .flex-container-2, .flex-rps, .flex-pick-color, .flex-blackjack-row-1, .flex-blackjack-row-3 {
     border-top: 1px solid rgb(0, 0, 0);
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
     justify-content: space-evenly;
     margin-top: 10px;
+}
+
+.flex-blackjack-row-2{
+    border-top: 1px solid rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+    background: url(/Images/back.jpg) !important;
+    color: white;
+}
+
+.flex-blackjack-row-1 div{
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+    height: 350px;
+    text-align: center;
+}
+
+.flex-blackjack-row-1 img{
+    width: 25%;
+    padding: 7px;
+}
+
+table,th,td{
+    padding: 5px;
+    border: 1px solid black;
 }
 
 .flex-container-1 div, .flex-container-2 div{
